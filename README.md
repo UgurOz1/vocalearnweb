@@ -6,7 +6,13 @@ VocaLearn web uygulaması - React + TypeScript + Vite ile geliştirilmiştir.
 
 Bu proje GitHub Pages üzerinde host edilmektedir.
 
-**Canlı Demo:** https://uguros1.github.io/vocalearnweb/
+**Canlı Demo:** https://vocalearnapp.com (Custom Domain)
+
+**Alternatif:** https://uguros1.github.io/vocalearnweb/
+
+### Custom Domain Yapılandırması
+
+`public/CNAME` dosyası custom domain için gerekli yapılandırmayı içerir.
 
 ### Otomatik Deployment
 

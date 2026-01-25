@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import logo from '../assets/logo.png';
+
 import './SplashScreen.css';
 
 interface SplashScreenProps {
@@ -35,7 +35,7 @@ const SplashScreen = ({ onFinish, embedded = false, persistent = false }: Splash
         >
             <div className="splash-logo-container">
                 <motion.img
-                    src={logo}
+                    src="/logo.png"
                     alt="VocaLearn Logo"
                     className="splash-logo"
                     initial={{ scale: 0.8, opacity: 0 }}

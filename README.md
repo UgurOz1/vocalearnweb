@@ -2,6 +2,9 @@
 
 VocaLearn web uygulaması - React + TypeScript + Vite ile geliştirilmiştir.
 
+### 📝 Son Değişiklikler
+- **Logo Düzeltmesi:** Logo dosyasının production ortamında görünmemesi sorunu giderildi. Logo `public/logo.png` konumuna taşındı ve statik referans kullanıldı.
+
 ## 🚀 GitHub Pages Deployment
 
 Bu proje GitHub Pages üzerinde host edilmektedir.

@@ -14,6 +14,12 @@ Bu proje GitHub Pages üzerinde host edilmektedir.
 
 `public/CNAME` dosyası custom domain için gerekli yapılandırmayı içerir.
 
+### SEO Dosyaları
+
+- `public/robots.txt` - Arama motoru tarayıcıları için izinler
+- `public/sitemap.xml` - Site haritası
+- `index.html` - SEO meta tagları (Open Graph, Twitter Card)
+
 ### Otomatik Deployment
 
 Proje, `main` branch'e push yapıldığında GitHub Actions ile otomatik olarak deploy edilir.

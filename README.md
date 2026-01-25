@@ -11,7 +11,7 @@ Bu proje GitHub Pages üzerinde host edilmektedir.
 
 **Canlı Demo:** https://vocalearnapp.com (Custom Domain)
 
-**Alternatif:** https://uguros1.github.io/vocalearnweb/
+**Alternatif:** https://uguroz1.github.io/vocalearnweb/
 
 ### Custom Domain Yapılandırması
 

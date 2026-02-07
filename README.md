@@ -3,6 +3,7 @@
 VocaLearn web uygulaması - React + TypeScript + Vite ile geliştirilmiştir.
 
 ### 📝 Son Değişiklikler
+- **Hesap Silme Sayfası:** Google Play Store gereksinimleri için `/account-deletion` sayfası eklendi. Kullanıcılar hesaplarını ve verilerini silme talebi hakkında bilgi alabilirler.
 - **Logo Düzeltmesi:** Logo dosyasının production ortamında görünmemesi sorunu giderildi. Logo `public/logo.png` konumuna taşındı ve statik referans kullanıldı.
 
 ## 🚀 GitHub Pages Deployment

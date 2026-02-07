@@ -27,6 +27,7 @@ const Footer = () => {
                     <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                         <li><Link to="/privacy" className="hover:text-primary transition-colors">Gizlilik Politikası</Link></li>
                         <li><Link to="/terms" className="hover:text-primary transition-colors">Kullanım Koşulları</Link></li>
+                        <li><Link to="/account-deletion" className="hover:text-primary transition-colors">Hesap Silme</Link></li>
                     </ul>
                 </div>
             </div>

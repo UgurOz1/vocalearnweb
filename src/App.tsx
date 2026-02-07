@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-route
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import AccountDeletion from './pages/AccountDeletion';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/account-deletion" element={<AccountDeletion />} />
         </Routes>
         <Footer />
       </div>

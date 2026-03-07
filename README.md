@@ -3,6 +3,7 @@
 VocaLearn web uygulaması - React + TypeScript + Vite ile geliştirilmiştir.
 
 ### 📝 Son Değişiklikler
+- **Gizlilik Politikası Güncellemesi:** VocaLearn mobil uygulaması için güncel gizlilik politikası metni eklendi. Firebase, AdMob, RevenueCat kullanımı ve kullanıcı verilerinin korunması ile ilgili detaylı bilgiler içeren Türkçe metin `/privacy` sayfasına işlendi.
 - **İletişim Sayfası:** Apple (App Store) destek URL'si için bilgilendirme niteliğinde olan `/contact` sayfası oluşturuldu ve `uguro9319@gmail.com` adresi eklendi. Navbar ve Footer'a linki verildi.
 - **Hesap Silme Sayfası:** Google Play Store gereksinimleri için `/account-deletion` sayfası eklendi. Kullanıcılar hesaplarını ve verilerini silme talebi hakkında bilgi alabilirler.
 - **Logo Düzeltmesi:** Logo dosyasının production ortamında görünmemesi sorunu giderildi. Logo `public/logo.png` konumuna taşındı ve statik referans kullanıldı.

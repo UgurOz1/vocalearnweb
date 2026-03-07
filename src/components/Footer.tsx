@@ -19,7 +19,7 @@ const Footer = () => {
                     <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                         <li><Link to="/" className="hover:text-primary transition-colors">Ana Sayfa</Link></li>
                         <li><Link to="/#features" className="hover:text-primary transition-colors">Özellikler</Link></li>
-                        <li><Link to="/" className="hover:text-primary transition-colors">İletişim</Link></li>
+                        <li><Link to="/contact" className="hover:text-primary transition-colors">İletişim</Link></li>
                     </ul>
                 </div>
                 <div>

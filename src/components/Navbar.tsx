@@ -14,6 +14,7 @@ const Navbar = () => {
                     <Link to="/#features" className="hover:text-indigo-400 transition-colors" style={{ fontSize: '0.9rem', fontWeight: 500 }}>Özellikler</Link>
                     <Link to="/#what-youll-learn" className="hover:text-indigo-400 transition-colors" style={{ fontSize: '0.9rem', fontWeight: 500 }}>Ne Öğreneceksin?</Link>
                     <Link to="/#how-it-works" className="hover:text-indigo-400 transition-colors" style={{ fontSize: '0.9rem', fontWeight: 500 }}>Nasıl Çalışır?</Link>
+                    <Link to="/contact" className="hover:text-indigo-400 transition-colors" style={{ fontSize: '0.9rem', fontWeight: 500 }}>İletişim</Link>
                     <button className="btn btn-primary" onClick={() => alert('Çok yakında App Store ve Google Play\'de!')}>Çok Yakında</button>
                 </div>
             </div>

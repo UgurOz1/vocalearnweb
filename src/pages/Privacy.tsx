@@ -10,7 +10,7 @@ const Privacy = () => {
                 style={{ maxWidth: '900px', margin: '0 auto' }}
             >
                 <h1 style={{ fontSize: '2.5rem', fontWeight: 800, marginBottom: '2rem' }}>Gizlilik Politikası</h1>
-                <p style={{ color: '#94a3b8', marginBottom: '2rem' }}>Son Güncelleme: {new Date().toLocaleDateString('tr-TR')}</p>
+                <p style={{ color: '#94a3b8', marginBottom: '2rem' }}>Son Güncelleme: 7 Kasım 2026</p>
 
                 <div style={{ color: '#cbd5e1', lineHeight: 1.8 }}>
                     <p style={{ marginBottom: '2rem' }}>
@@ -31,7 +31,12 @@ const Privacy = () => {
                         <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                             <li><strong>Kullanım Verileri:</strong> Öğrenme ilerlemeniz, tamamlanan kelimeler, sınav skorları ve uygulama içi etkileşimleriniz.</li>
                             <li><strong>Cihaz Bilgileri:</strong> Cihaz modeli, işletim sistemi sürümü, IP adresi ve cihaz tanımlayıcıları (IDFA/AAID).</li>
+                            <li><strong>Analitik Verileri:</strong> Uygulamanın hangi ekranlarının ve özelliklerinin kullanıldığı (örneğin açılan ekranlar, tamamlanan oyunlar, seri ve can kullanımı, abonelik ekranındaki etkileşimler) ve uygulamanın açılış süresi gibi performans ölçümleri.</li>
+                            <li><strong>Tanılama Verileri:</strong> Uygulama çöktüğünde veya bir hata oluştuğunda oluşturulan hata raporları (hatanın teknik ayrıntıları, cihaz modeli, işletim sistemi ve uygulama sürümü).</li>
                         </ul>
+                        <p style={{ marginTop: '1rem' }}>
+                            Analitik ve tanılama verileri, yalnızca hesabınıza ait anonim kullanıcı kimliği (Firebase kullanıcı kimliği) ile ilişkilendirilir; adınız veya e-posta adresiniz bu verilerle birlikte gönderilmez. Bu veriler sizi başka şirketlere ait uygulama ve web sitelerinde takip etmek için kullanılmaz ve satılmaz.
+                        </p>
                     </section>
 
                     <section style={{ marginBottom: '3rem' }}>
@@ -40,7 +45,7 @@ const Privacy = () => {
                             Hizmet kalitemizi artırmak ve operasyonlarımızı sürdürmek için şu güvenilir iş ortaklarıyla çalışıyoruz:
                         </p>
                         <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            <li><strong>Firebase (Google):</strong> Uygulama veritabanı (Firestore), kullanıcı kimlik doğrulama (Auth) ve hata raporlama (Crashlytics) için kullanılır.</li>
+                            <li><strong>Firebase (Google):</strong> Uygulama veritabanı (Firestore), kullanıcı kimlik doğrulama (Auth) , hata raporlama (Crashlytics) ve uygulama kullanım analizi (Google Analytics for Firebase) için kullanılır.</li>
                             <li><strong>Google AdMob:</strong> Uygulama içinde reklam sunmak için kullanılır. AdMob, size kişiselleştirilmiş reklamlar göstermek için cihazınızın reklam tanımlayıcısını (IDFA) kullanabilir.</li>
                             <li><strong>RevenueCat:</strong> Uygulama içi satın almaların ve aboneliklerin yönetimi için kullanılır.</li>
                             <li><strong>Apple & Google:</strong> Satın alma işlemleri doğrudan bu platformların ödeme sistemleri üzerinden yapılır; kredi kartı bilgileriniz bizim sunucularımızda asla tutulmaz.</li>

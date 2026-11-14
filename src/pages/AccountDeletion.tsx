@@ -1,7 +1,7 @@
 import LegalPage from '../components/LegalPage';
 
 const AccountDeletion = () => (
-    <LegalPage eyebrow="Legal" title="Account and Data Deletion" tocLabel="Contents" updated={<>Last Updated: {new Date().toLocaleDateString('en-US')}</>}>
+    <LegalPage eyebrow="Legal" title="Account and Data Deletion" tocLabel="Contents" updated="Last Updated: February 7, 2026">
 
                     <section>
                         <p>

@@ -1,6 +1,6 @@
 import { MotionConfig } from 'framer-motion';
 import { useEffect } from 'react';
-import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -29,10 +29,10 @@ const ScrollToTop = () => {
 
 // Not: /privacy, /terms, /account-deletion ve /contact adresleri uygulamada
 // ve mağaza kayıtlarında kullanılıyor — değiştirmeyin.
+// Router dışarıda: tarayıcıda BrowserRouter (main.tsx), build'de StaticRouter (entry-server.tsx)
 function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <Router>
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -44,7 +44,6 @@ function App() {
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
-      </Router>
     </MotionConfig>
   );
 }

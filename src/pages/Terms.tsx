@@ -1,7 +1,7 @@
 import LegalPage from '../components/LegalPage';
 
 const Terms = () => (
-    <LegalPage eyebrow="Yasal" title="Kullanım Koşulları" tocLabel="İçindekiler" updated={<>Son Güncelleme: {new Date().toLocaleDateString('tr-TR')}</>}>
+    <LegalPage eyebrow="Yasal" title="Kullanım Koşulları" tocLabel="İçindekiler" updated="Son Güncelleme: 25 Ocak 2026">
 
                     <section>
                         <h2>1. Sözleşmenin Konusu</h2>

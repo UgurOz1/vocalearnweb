@@ -3,12 +3,15 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   base: '/',
   plugins: [
     react(),
-    VitePWA({
+    // Prerender (SSR) build'inde service worker üretme
+    !isSsrBuild && VitePWA({
       registerType: 'autoUpdate',
+      // Sayfalar önceden üretildiği için gezinmede her adres kendi HTML'ini sunucudan alsın
+      workbox: { navigateFallback: null },
       includeAssets: ['favicon.png', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
         name: 'VocaLearn',
@@ -38,4 +41,4 @@ export default defineConfig({
       }
     })
   ],
-})
+}))

@@ -58,19 +58,18 @@ const LegalPage = ({ eyebrow, title, updated, tocLabel = 'İçindekiler', childr
                     <p className="legal-updated">{updated}</p>
                 </motion.header>
 
-                <div className={`legal-grid ${toc.length > 1 ? '' : 'no-toc'}`}>
-                    {toc.length > 1 && (
-                        <aside className="legal-toc">
-                            <span>{tocLabel}</span>
-                            <ul>
-                                {toc.map((t) => (
-                                    <li key={t.id}>
-                                        <a href={`#${t.id}`} className={active === t.id ? 'is-active' : ''}>{t.text}</a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </aside>
-                    )}
+                {/* İçindekiler sütunu her zaman yer kaplar; liste açıldıktan sonra dolar (kayma olmasın) */}
+                <div className="legal-grid">
+                    <aside className="legal-toc" aria-label={tocLabel}>
+                        <span>{tocLabel}</span>
+                        <ul>
+                            {toc.map((t) => (
+                                <li key={t.id}>
+                                    <a href={`#${t.id}`} className={active === t.id ? 'is-active' : ''}>{t.text}</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </aside>
                     <motion.div
                         ref={bodyRef}
                         className="prose"
